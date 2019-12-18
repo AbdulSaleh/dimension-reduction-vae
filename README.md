@@ -25,11 +25,11 @@ This section briefly outlines some of our analysis and findings.
 This diagram shows the
 
 
-<p float="center">
-  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="30%" height="30%" />
-  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/fashion_manifold_30.png" width="30%" height="30%" />
+<p float="left" align="middle">
+  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="20%" height="20%" />
+  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/fashion_manifold_30.png" width="20%" height="20%" />
 </p>
-
+</p>
 
 <!--
 <div class="row">
