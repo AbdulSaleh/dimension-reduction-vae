@@ -27,10 +27,10 @@ This diagram shows the
 <p align="center">
 <div class="row">
   <div class="column">
-    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="40%" height="40%">
+    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="20%" height="20%">
   </div>
   <div class="column">
-    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="40%" height="40%">
+    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="20%" height="20%">
   </div>
 </div>
 </p>
