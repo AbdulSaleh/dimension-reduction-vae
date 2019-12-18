@@ -24,7 +24,7 @@ This section briefly outlines some of our analysis and findings.
 ### Dimension Reduction
 This diagram shows the
 
-![alt-text-1](https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png | width=100) ![alt-text-2](https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png)
+![alt-text-1](https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png){:height="50%" width="50%"} ![alt-text-2](https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png)
 <!--
 <div class="row">
   <div class="column">
