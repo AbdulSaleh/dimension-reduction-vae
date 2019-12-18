@@ -24,19 +24,18 @@ This section briefly outlines some of our analysis and findings.
 ### Dimension Reduction
 This diagram shows the
 
-<!-- <p align="center">
+<p align="center">
 <div class="row">
   <div class="column">
-    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="40%" height="40%">
   </div>
   <div class="column">
-    <img src="img_forest.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="40%" height="40%">
   </div>
 </div>
-</p> -->
+</p>
+
+<!-- https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png -->
 <!--
 <p align="center">
 <img src="https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/dclau_mitchell_freq_comparison.png" width="40%">
