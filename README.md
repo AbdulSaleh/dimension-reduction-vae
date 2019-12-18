@@ -24,16 +24,12 @@ This section briefly outlines some of our analysis and findings.
 ### Dimension Reduction
 This diagram shows the
 
-<<<<<<< HEAD
 <p float="left">
   <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="20%" height="20%" />
-  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="20%" height="20%" />
+  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/fashion_manifold_30.png" width="20%" height="20%" />
 </p>
 
 
-=======
-![alt-text-1](https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png){:height="50%" width="50%"} ![alt-text-2](https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png)
->>>>>>> 6d964891a7c5fa98feaca0eaef2f386c8f71165a
 <!--
 <div class="row">
   <div class="column">
