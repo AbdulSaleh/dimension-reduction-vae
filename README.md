@@ -1,5 +1,5 @@
 # Variational Autoencoders: Generative Models for Dimension Reduction
-This code accompanies [my Stat185 final project](www.google.com) on variational autoencoders. The project derives and explores variational autoencoder from a dimension reduction perspective closely following the analysis in [Kingma et al. (2013)](https://arxiv.org/abs/1312.6114) and [Dai et al. (2017)](https://arxiv.org/abs/1706.05148).
+This code accompanies [my Stat185 final project](Dimension_Reduction_Variational_Autoencoders.pdf) on variational autoencoders. The project derives and explores variational autoencoder from a dimension reduction perspective closely following the analysis in [Kingma et al. (2013)](https://arxiv.org/abs/1312.6114) and [Dai et al. (2017)](https://arxiv.org/abs/1706.05148).
 
 The VAE implementation is based on the official PyTorch example which can be found [here](https://github.com/pytorch/examples/tree/master/vae).
 
