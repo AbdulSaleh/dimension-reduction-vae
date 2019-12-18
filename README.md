@@ -22,8 +22,7 @@ python train.py --epochs 10 --dataset FashionMNIST --z-dim 3 --noise 0.2
 This section briefly outlines some of our analysis and findings.
 
 ### Dimension Reduction
-This diagram shows the
-
+These figures show the smooth manifolds learned for MNIST and FasionMNIST.  
 
 <p float="left" align="middle">
   <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="35%" height="35%" />
@@ -31,21 +30,14 @@ This diagram shows the
 </p>
 </p>
 
-<!--
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="20%" height="20%">
-  </div>
-  <div class="column">
-    <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png" width="20%" height="20%">
-  </div>
-</div> -->
+VAEs are effective at encoding and reconstructing the data while smoothing over and correcting small details (such as the broken loop in the 6).
 
-<!-- https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifold_30.png -->
-<!--
-<p align="center">
-<img src="https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/dclau_mitchell_freq_comparison.png" width="40%">
-</p> -->
+<p float="left" align="middle">
+  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/reconstruction_30.png" width="35%" height="35%" />
+  <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/fashion_reconstruction_30.png" width="35%" height="35%" />
+</p>
+</p>
+
 
 
 ### Generative Modelling
