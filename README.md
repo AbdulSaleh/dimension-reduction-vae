@@ -7,12 +7,12 @@ The VAE implementation is based on the official PyTorch example which can be fou
 This code only requires a few packages listed in `requirements.txt`. If you have Anaconda and PyTorch, you do not need to install additional packages.
 
 ## Usage
-The possible options are in `setup_args.py`. You can use this code to train both traditional and variational autoencoders. You can vary the dimension of *z*, adjust the amount of noise, select between different datasets, etc.
+The possible options are in `setup_args.py`. You can use this code to train both traditional and variational autoencoders. You can vary the dimension of **z**, adjust the amount of noise, select between different datasets, etc.
 
 Depending on your operating system you might need to manually create save directories such as `models/MNIST/VAE/0.2`
 
 ## Example
-To run a variational autoencoder for 10 epochs, with a 3 dimension *z* vector, on FashionMNIST, with 0.2 of the entries corrupted with Gaussian noise,
+To run a variational autoencoder for 10 epochs, with a 3 dimension **z** vector, on FashionMNIST, with 0.2 of the entries corrupted with Gaussian noise,
 
 ```
 python train.py --epochs 10 --dataset FashionMNIST --z-dim 3 --noise 0.2
@@ -21,7 +21,7 @@ python train.py --epochs 10 --dataset FashionMNIST --z-dim 3 --noise 0.2
 ## Analysis
 This section briefly outlines some of our analysis and findings.
 
-### Dimension Reduction
+### Manifold Learning
 These figures show the smooth manifolds learned for MNIST and FasionMNIST.  
 
 <p float="left" align="middle">
@@ -30,7 +30,9 @@ These figures show the smooth manifolds learned for MNIST and FasionMNIST.
 </p>
 </p>
 
-VAEs are effective at encoding and reconstructing the data while smoothing over and correcting small details (such as the broken loop in the 6).
+### Dimension Reduction
+
+VAEs are effective at encoding and reconstructing the data while smoothing over and correcting small details (such as the broken loop in the 6). The top images are the inputs and the bottom images are the reconstructions.
 
 <p float="left" align="middle">
   <img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/reconstruction_30.png" width="35%" height="35%" />
@@ -38,21 +40,31 @@ VAEs are effective at encoding and reconstructing the data while smoothing over 
 </p>
 </p>
 
+The scatter plot below shows latent vectors **z** map different MNIST digits to different clusters.
 
-
-### Generative Modelling
-
-### Manifold Learning
-
-### Manifold Dimension
+<p align="center">
+<img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/spacemap.png" width="35%" height="35%" />
+</p>
 
 ### Disentanglement
 
-<!-- ![Frequency Plot for Mitchell vs DC Lau 1963|20%](https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/dclau_mitchell_freq_comparison.png) -->
+VAEs can learn disentangled representations. Here we find that the x-axis corresponds to the height of the heel and the y-axis corresponds to the height of the boot (excluding the heel).
 
-<!-- <p align="center">
-<img src="https://github.com/AbdulSaleh/TaoTeChing-NLP/blob/master/plots/dclau_mitchell_freq_comparison.png" width="40%">
-</p> -->
+<p align="center">
+<img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/boot_manifold_20.png" width="35%" height="35%" />
+</p>
+
+
+### Manifold Dimension Discovery
+
+VAEs can prune unnecessary dimensions of **z** and discover the true dimensionality of the data. Here there are the VAE identifies that it only requires 2 dimensions to encode the data.
+
+
+<p align="center">
+<img src="https://github.com/AbdulSaleh/dimension-reduction-vae/blob/master/images/manifolddim.png" width="35%" height="35%" />
+</p>
+
+
 
 ## Reference
 If you find this code or analysis useful please cite:
