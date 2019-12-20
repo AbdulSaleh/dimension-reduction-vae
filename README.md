@@ -72,7 +72,7 @@ If you find this code or analysis useful please cite:
 @misc{saleh2019vae,
   title={Variational Autoencoders: Generative Models for Dimension reduction},
   author={Saleh, Abdul},
-  url={www.google.com},
+  url={https://abdulsaleh.github.io/files/Dimension_Reduction_Variational_Autoencoders.pdf},
   year={2019}
 }
 ```
